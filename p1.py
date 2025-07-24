@@ -1,7 +1,7 @@
 # serpedia:- search from wikepedia and the speaker will tell you the data
 import win32com.client
 import wikipedia
-speaker = win32com.client.Dispatch("SAPI.spVoice")
+speaker = win32com.client.Dispatch("SAPI.spVoice"
 search= input("Enter what do you want to search from wikepedia:-")
 p=(wikipedia.summary(search))
 print("..............The data which you have searched for..............")
